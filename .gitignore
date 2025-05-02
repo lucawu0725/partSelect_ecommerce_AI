@@ -36,3 +36,4 @@ Thumbs.db
 # ========================
 *.zip
 *.tgz
+.DS_Store
