@@ -1,39 +1,38 @@
 # ========================
-# Node.js Backend
+# Node.js + React (Global)
 # ========================
-node_modules/
-.env
-dist/
-coverage/
-*.log
+**/node_modules/
+**/.env
+**/.env.*
+**/*.log
+**/*.cache
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # ========================
-# React Frontend (if separate)
+# Build and Coverage
 # ========================
-build/
-node_modules/
-.env
-.DS_Store
-*.log
-*.cache
-*.env.local
-*.env.development.local
-*.env.test.local
-*.env.production.local
+**/dist/
+**/build/
+**/coverage/
 
 # ========================
-# VS Code + OS
+# System Files
 # ========================
-.vscode/
-*.swp
-*.swo
-.idea/
 .DS_Store
 Thumbs.db
 
 # ========================
-# Optional Extras
+# Editor Files
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+# Archives
 # ========================
 *.zip
 *.tgz
